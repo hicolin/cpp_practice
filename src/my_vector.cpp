@@ -134,7 +134,7 @@ int main() {
     vec.push_back(1);
     vec.push_back(2);
     vec.push_back(3); // push_back(T &&val)
-    int a = 4;
+    constexpr int a = 4;
     vec.push_back(a); // push_back(const T &val)
 
     std::cout << "size: " << vec.size() << ", capacity: " << vec.capacity() << std::endl;
