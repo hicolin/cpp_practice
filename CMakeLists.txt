@@ -17,7 +17,7 @@ FetchContent_MakeAvailable(fmt)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(cpp_practice main.cpp src/fmt.cpp)
+add_executable(cpp_practice main.cpp src/fmt.cpp src/defer.cpp)
 
 # 链接 fmt
 target_link_libraries(cpp_practice PRIVATE fmt::fmt)
