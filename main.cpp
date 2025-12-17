@@ -1,12 +1,11 @@
 #include <iostream>
+#include "src/fmt.h"
+
 
 int main() {
-    auto lang = "C++";
-    std::cout << "Hello and welcome to " << lang << "!\n";
+    std::cout << "Hello, World!" << std::endl;
 
-    for (int i = 1; i <= 5; i++) {
-        std::cout << "i = " << i << std::endl;
-    }
+    fmt_test();
 
     return 0;
 }
